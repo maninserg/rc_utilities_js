@@ -4,8 +4,9 @@ import { tableAreaArmByCount } from './modules/tables/tableAreaArmByCount';
 import { tableAreaArmByStep } from './modules/tables/tableAreaArmByStep';
 import { configAreaArmByCount } from './modules/config/configAreaArmByCount';
 import { configAreaArmByStep } from './modules/config/configAreaArmByStep';
+import { tableLapAnchorArm } from './modules/tables/tableLapAnchorArm';
 import { calculateAreaArmByCountOrStep } from './modules/functions/calculateAreaArmByCountOrStep';
-import { lapAnchorArm } from './modules/tables/tableLapAnchorArm';
+import { calculateLapAnchorArm } from './modules/functions/calculateLapAnchorArm';
 
 
 calculateAreaArmByCountOrStep(configAreaArmByCount, tableAreaArmByCount);
