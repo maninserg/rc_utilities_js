@@ -102,4 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# MacOS staff files
 .DS_Store
+
+# Lock json file
+package-lock.json
