@@ -125,45 +125,61 @@
             </div>
         </div>
 
-        <div class="source-lap-anchor">
-            <select class="form-select form-select-lg mb-3" name="class-beton" aria-label=".form-select-lg example">
-                <option selected>Выберите класс бетона</option>
-                <option value="B15">B15</option>
-                <option value="B20">B20</option>
-                <option value="B25">B25</option>
-                <option value="B30">B30</option>
-                <option value="B35">B35</option>
-            </select>
+        <div class="row">
+            <div class="col-md-5 col-sm-12 mt-3 div-input-form-lap-anchor">
+                <div class="source-lap-anchor">
+                    <select class="form-select form-select-lg mb-3" name="class-beton"
+                        aria-label=".form-select-lg example">
+                        <option selected>Выберите класс бетона</option>
+                        <option value="B15">B15</option>
+                        <option value="B20">B20</option>
+                        <option value="B25">B25</option>
+                        <option value="B30">B30</option>
+                        <option value="B35">B35</option>
+                    </select>
 
-            <select class="form-select form-select-lg mb-3" name="class-arm" aria-label=".form-select-lg example">
-                <option selected>Выберите класс арматуры</option>
-                <option value="A240">A240</option>
-                <option value="A300">A300</option>
-                <option value="A400">A400</option>
-                <option value="A500">A500</option>
-            </select>
+                    <select class="form-select form-select-lg mb-3" name="class-arm"
+                        aria-label=".form-select-lg example">
+                        <option selected>Выберите класс арматуры</option>
+                        <option value="A240">A240</option>
+                        <option value="A300">A300</option>
+                        <option value="A400">A400</option>
+                        <option value="A500">A500</option>
+                    </select>
 
-            <select class="form-select form-select-lg mb-3" name="diameter-arm" aria-label=".form-select-lg example">
-                <option selected>Выберите диаметр арматуры</option>
-                <option value="6">6</option>
-                <option value="8">8</option>
-                <option value="10">10</option>
-                <option value="12">12</option>
-                <option value="14">14</option>
-                <option value="16">16</option>
-                <option value="18">18</option>
-                <option value="20">20</option>
-                <option value="22">22</option>
-                <option value="25">25</option>
-                <option value="28">28</option>
-                <option value="32">32</option>
-            </select>
-            <div class="col-auto">
-                <button type="button" class="btn btn-primary mb-3 btn-calculate-lap-anchor">Расчет</button>
+                    <select class="form-select form-select-lg mb-3" name="diameter-arm"
+                        aria-label=".form-select-lg example">
+                        <option selected>Выберите диаметр арматуры</option>
+                        <option value="6">6</option>
+                        <option value="8">8</option>
+                        <option value="10">10</option>
+                        <option value="12">12</option>
+                        <option value="14">14</option>
+                        <option value="16">16</option>
+                        <option value="18">18</option>
+                        <option value="20">20</option>
+                        <option value="22">22</option>
+                        <option value="25">25</option>
+                        <option value="28">28</option>
+                        <option value="32">32</option>
+                    </select>
+                    <button type="button" class="btn btn-primary mb-3 btn-calculate-lap-anchor">Расчет</button>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-12 mt-3 div-arrow-lap-anchor">
+                <div class="arrows d-flex justify-content-center">
+                    <span class="h1 arrow-play-lap-anchor" style="display: none; color: blue"> <i
+                            class="fa-regular fa-circle-play"></i> </span>
+                    <span class="h1 arrow-pause-lap-anchor" style="color: red;"> <i
+                            class="fa-regular fa-circle-pause"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="col-md-5 col-sm-12 h4  shadow bg-body-tertiary rounded mt-3 d-flex align-items-center div-result-lap-anchor">
+                <div class="div-result-anchor">Длина анкеровки: <span class="span-result-anchor" style="color: red;">0</span> мм</div>
+                <div class="div-result-lap">Длина перехлеста: <span class="span-result-lap" style="color: red;">0</span> мм</div>
             </div>
         </div>
-
-
         <!-- -->
     </div>
 

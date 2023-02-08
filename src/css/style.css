@@ -1,0 +1,15 @@
+.input-form-lap-anchor {
+  display: flex;
+  flex-direction: column;
+}
+
+.arrow-lap-anchor {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-result-lap-anchor {
+  flex-direction: column;
+  justify-content: space-evenly;
+}
