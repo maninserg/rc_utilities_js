@@ -27,7 +27,6 @@ export function calculateAverageRCArea (config) {
             spanCounterFE.innerHTML = cardsAddedFE.length + 2;
             const divAddedFE = document.createElement("div");
             divAddedFE.classList.add("card");
-            divAddedFE.classList.add("col");
             divAddedFE.classList.add("text-center");
             divAddedFE.classList.add("card-added-fe");
 
@@ -61,7 +60,9 @@ export function calculateAverageRCArea (config) {
             divAddedFE.append(footerCardAddedFE);
 
             const divCol = document.createElement('div');
-            divCol.classList.add("col");
+            divCol.classList.add("col-lg-3");
+            divCol.classList.add("col-md-6");
+            divCol.classList.add("col-sm-12");
             divCol.classList.add("col-added");
             divCol.append(divAddedFE);
 
