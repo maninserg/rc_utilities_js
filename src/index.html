@@ -84,7 +84,7 @@
                 </div>
             </div>
             <div class="col-md-2 col-sm-12 mt-3">
-                <div class="arrows d-flex justify-content-center">
+                <div class="arrows d-flex justify-content-center align-items-center">
                     <span class="h1 arrow-play-area-by-step" style="display: none; color: blue"> <i
                             class="fa-regular fa-circle-play"></i> </span>
                     <span class="h1 arrow-pause-area-by-step" style="color: red;"> <i
@@ -124,7 +124,7 @@
                 </h2>
             </div>
         </div>
-        
+
         <div class="row">
             <div class="col-md-5 col-sm-12 mt-3 div-input-form-lap-anchor">
                 <div class="source-lap-anchor">
@@ -166,8 +166,8 @@
                     <button type="button" class="btn btn-primary mb-3 btn-calculate-lap-anchor">Расчет</button>
                 </div>
             </div>
-            <div class="col-md-2 col-sm-12 mt-3 div-arrow-lap-anchor">
-                <div class="arrows d-flex justify-content-center">
+            <div class="col-md-2 col-sm-12 mt-3 div-arrow-lap-anchor d-flex justify-content-center align-items-center">
+                <div class="arrows">
                     <span class="h1 arrow-play-lap-anchor" style="display: none; color: blue"> <i
                             class="fa-regular fa-circle-play"></i> </span>
                     <span class="h1 arrow-pause-lap-anchor" style="color: red;"> <i
@@ -175,16 +175,76 @@
                     </span>
                 </div>
             </div>
-            <div class="col-md-5 col-sm-12 h4  shadow bg-body-tertiary rounded mt-3 d-flex flex-column justify-content-around align-items-center div-result-lap-anchor">
-                <div class="div-result-anchor">Длина анкеровки: <span class="span-result-anchor" style="color: red;">0</span> мм</div>
-                <div class="div-result-lap">Длина перехлеста: <span class="span-result-lap" style="color: red;">0</span> мм</div>
+            <div
+                class="col-md-5 col-sm-12 h4  shadow bg-body-tertiary rounded mt-3 d-flex flex-column justify-content-around align-items-center div-result-lap-anchor">
+                <div class="div-result-anchor">Длина анкеровки: <span class="span-result-anchor"
+                        style="color: red;">0</span> мм</div>
+                <div class="div-result-lap">Длина перехлеста: <span class="span-result-lap" style="color: red;">0</span>
+                    мм</div>
             </div>
         </div>
         <hr>
         <!-- -->
 
         <!-- Усреднение результатов армирования пластинчатых КЭ -->
+        <div class="row text-center m-5">
+            <div class="col">
+                <h2 class="title">
+                    4. Усреднение результатов расчета площади арматуры пластинчатых КЭ
+                </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col h4">
+                Количество КЭ: <span class="span-counter-fe">1</span>
+                <div class="wrapper-btns">
+                    <button type="button" class="btn btn-success btn-fe-minus">Убрать КЭ</button>
+                    <button type="button" class="btn btn-success btn-fe-plus">Добавить КЭ</button>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="fe-group mt-3 row">
+                <div class="col">
+                    <div class="card text-center col">
+                        <div class="card-header">
+                            КЭ #<span class="span-sn-fe">1</span>
+                        </div>
+                        <div class="card-body">
+                            <label for="input-area-arm">A<sub>арм.</sub>=</label>
+                            <input id="input-area-arm" class="input-area-arm" type="text" />
+                            <span>см<sup>2</sup>/м</span>
+                        </div>
+                        <div class="card-footer text-muted">
+                            <label for="input-width-fe">L<sub>стороны</sub> =</label>
+                            <input id="input-width-fe" class="input-width-fe" type="text" />
+                            м
+                        </div>
+                    </div>
+                </div>
 
+            </div>
+        </div>
+        <div class="row div-calculate-average-rc-area mt-3">
+            <div class="col-2">
+                <button type="button" class="btn btn-primary btn-calculate-average-area-arm">Расчет</button>
+            </div>
+            <div class="col-md-2 col-sm-12">
+                <div class="arrows d-flex justify-content-center">
+                    <span class="h1 arrow-play-average-area-arm" style="display: none; color: blue"> <i
+                            class="fa-regular fa-circle-play"></i> </span>
+                    <span class="h1 arrow-pause-average-area-arm" style="color: red;"> <i
+                            class="fa-regular fa-circle-pause"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="col h4 d-flex justify-content-center align-items-center">
+                Средняя площадь A <sub>арм.</sub> = <span class="result-average-area-arm" style="color:red;">0</span>
+                см<sup>2</sup>/м на общей ширине L<sub>общ.</sub> = <span class="result-average-width-arm"
+                    style="color: red;">0</span> м
+            </div>
+        </div>
+        <hr>
         <!-- -->
     </div>
 

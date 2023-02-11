@@ -1,15 +1,9 @@
-.input-form-lap-anchor {
-  display: flex;
-  flex-direction: column;
+
+.input-width-fe {
+  width: 40%;
 }
 
-.arrow-lap-anchor {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.input-area-arm {
+  width: 40%;
 }
 
-.div-result-lap-anchor {
-  flex-direction: column;
-  justify-content: space-evenly;
-}
