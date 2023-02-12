@@ -19,6 +19,6 @@ calculateAreaArmByCountOrStep(configAreaArmByCount, tableAreaArmByCount);
 
 calculateAreaArmByCountOrStep(configAreaArmByStep, tableAreaArmByStep);
 
-calculateLapAnchorArm(tableLapAnchorArm, configLapAnchorArm);
+// calculateLapAnchorArm(tableLapAnchorArm, configLapAnchorArm);
 
 calculateAverageRCArea(configAverageRCArea);
